@@ -144,7 +144,8 @@ void LiquidCrystal::begin(uint8_t cols, uint8_t lines, uint8_t dotsize) {
   delayMicroseconds(5000);
 
   // finally, set # lines, font size, etc.
-  command(LCD_FUNCTIONSET | _displayfunction);
+  #define LCD_FONTTABLE 0b0000000011	// different fonttable for OLED because of 'strange' g
+  command(LCD_FUNCTIONSET | _displayfunction | LCD_FONTTABLE); // 
 
   // turn the display on with no cursor or blinking default
   _displaycontrol = LCD_DISPLAYON | LCD_CURSOROFF | LCD_BLINKOFF;
