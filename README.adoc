@@ -1,4 +1,5 @@
-= Liquid Crystal Library for Arduino =<br>
+= Liquid Crystal Library for Arduino =
+
 OLED Fix for Marlin 2.0.7.2
 
 This library allows an Arduino board to control LiquidCrystal displays (LCDs) based on the Hitachi HD44780 (or a compatible) chipset, which is found on most text-based LCDs.
