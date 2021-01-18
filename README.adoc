@@ -2,7 +2,7 @@
 
 OLED Fix for Marlin 2.0.7.2
 
-Installation:
+== Installation: ==
 
 In platformio.ini line 668
 
