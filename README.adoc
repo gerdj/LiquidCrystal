@@ -6,7 +6,11 @@ Installation:
 
 In platformio.ini line 668
 
-change "custom_marlin.USES_LIQUIDCRYSTAL = LiquidCrystal@1.0.0" to "custom_marlin.USES_LIQUIDCRYSTAL = LiquidCrystal=https://github.com/gerdj/LiquidCrystal/archive/2.0.7.2.zip"
+change "custom_marlin.USES_LIQUIDCRYSTAL = LiquidCrystal@1.0.0
+
+to
+
+"custom_marlin.USES_LIQUIDCRYSTAL = LiquidCrystal=https://github.com/gerdj/LiquidCrystal/archive/2.0.7.2.zip"
 
 
 
