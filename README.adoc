@@ -2,14 +2,17 @@
 
 OLED Fix for Marlin 2.0.7.2
 
-Installation:<br>In platformio.ini line 668
+Installation:
+
+In platformio.ini line 668
 
 change
+
 custom_marlin.USES_LIQUIDCRYSTAL = LiquidCrystal@1.0.0
 
 to
 
-"custom_marlin.USES_LIQUIDCRYSTAL = LiquidCrystal=https://github.com/gerdj/LiquidCrystal/archive/2.0.7.2.zip"
+custom_marlin.USES_LIQUIDCRYSTAL = LiquidCrystal=https://github.com/gerdj/LiquidCrystal/archive/2.0.7.2.zip
 
 
 
