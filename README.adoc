@@ -14,7 +14,7 @@ to
 
 custom_marlin.USES_LIQUIDCRYSTAL = LiquidCrystal=https://github.com/gerdj/LiquidCrystal/archive/2.0.7.2.zip
 
-
+== About ==
 
 This library allows an Arduino board to control LiquidCrystal displays (LCDs) based on the Hitachi HD44780 (or a compatible) chipset, which is found on most text-based LCDs.
 
