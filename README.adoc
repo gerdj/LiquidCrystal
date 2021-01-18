@@ -1,9 +1,14 @@
 = Liquid Crystal Library for Arduino =
 
-OLED Fix for Marlin 2.0.7.2<br>
-Installation:<br>
-In platformio.ini line 668<br>
-change "custom_marlin.USES_LIQUIDCRYSTAL = LiquidCrystal@1.0.0" to "custom_marlin.USES_LIQUIDCRYSTAL = LiquidCrystal=https://github.com/gerdj/LiquidCrystal/archive/2.0.7.2.zip" 
+OLED Fix for Marlin 2.0.7.2
+
+Installation:
+
+In platformio.ini line 668
+
+change "custom_marlin.USES_LIQUIDCRYSTAL = LiquidCrystal@1.0.0" to "custom_marlin.USES_LIQUIDCRYSTAL = LiquidCrystal=https://github.com/gerdj/LiquidCrystal/archive/2.0.7.2.zip"
+
+
 
 This library allows an Arduino board to control LiquidCrystal displays (LCDs) based on the Hitachi HD44780 (or a compatible) chipset, which is found on most text-based LCDs.
 
